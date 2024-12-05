@@ -16,7 +16,7 @@ This project aims to create a smart, optimized meal plan that satisfies daily nu
 
 ## 📂 Project Files
 1. **Input Files**
-   - `[food_data.csv](food_data.csv)`: Contains details about food items, nutritional values, categories, costs, and constraints.  
+   - [`food_data.csv`](food_data.csv): Contains details about food items, nutritional values, categories, costs, and constraints.  
    - `[not_recommended.csv](not_recommended.csv)`: Specifies which foods are not recommended for specific meals.
 
 2. **Model File**
