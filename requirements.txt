@@ -1,0 +1,2 @@
+pandas==2.1.0       # For data manipulation (e.g., reading food data)
+pulp==2.4           # For optimization modeling
