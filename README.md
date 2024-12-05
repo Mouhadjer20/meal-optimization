@@ -105,7 +105,7 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 ## 💡 Inspiration
-Inspired by the need for smarter meal planning in busy lifestyles, this project combines the power of optimization with nutritional science to create meaningful, personalized solutions.[Practical Work Sheet n.2](dl tp2 RO ing diet local search.pdf) 🌱
+Inspired by the need for smarter meal planning in busy lifestyles, this project combines the power of optimization with nutritional science to create meaningful, personalized solutions.[Practical Work Sheet n.2](dl_tp2_RO_ing_diet_local_search.pdf) 🌱
 
 --- 
 
