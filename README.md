@@ -75,7 +75,11 @@ This project aims to create a smart, optimized meal plan that satisfies daily nu
 
 ## 🎯 Optimization Goal
 Minimize:  
-\[	ext{Total Cost} + \lambda \cdot 	ext{Penalty for Not Recommended Foods}\]  
+
+$$
+Total\ Cost + \lambda \cdot Penalty\ for\ Not\ Recommended\ Foods
+$$
+
 Subject to:
 - Daily nutritional requirements.
 - Meal-specific food constraints.
