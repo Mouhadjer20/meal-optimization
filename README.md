@@ -17,13 +17,13 @@ This project aims to create a smart, optimized meal plan that satisfies daily nu
 ## 📂 Project Files
 1. **Input Files**
    - [`food_data.csv`](food_data.csv): Contains details about food items, nutritional values, categories, costs, and constraints.  
-   - `[not_recommended.csv](not_recommended.csv)`: Specifies which foods are not recommended for specific meals.
+   - [`not_recommended.csv`](not_recommended.csv): Specifies which foods are not recommended for specific meals.
 
 2. **Model File**
-   - `optimization_model.mod`: Defines the mathematical optimization model, including variables, constraints, and the objective function.
+   - [`optimization_model.mod`](optimization_model.mod): Defines the mathematical optimization model, including variables, constraints, and the objective function.
 
 3. **Solver Script**
-   - `solver.py`: Python script to load data, run the optimization, and save the results.
+   - [`solver.py`](solver.py): Python script to load data, run the optimization, and save the results.
 
 4. **Output Files**
    - `meal_plan.csv`: Generated meal plan showing assigned food quantities for each meal.
@@ -64,7 +64,7 @@ This project aims to create a smart, optimized meal plan that satisfies daily nu
 ---
 
 ## 🚀 Usage
-1. **Prepare Input Files**: Customize `food_data.csv` and `not_recommended.csv` with your data.
+1. **Prepare Input Files**: Customize [`food_data.csv`](food_data.csv) and [`not_recommended.csv`](not_recommended.csv) with your data.
 2. **Run the Solver**:
    ```bash
    python solver.py
