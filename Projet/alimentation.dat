@@ -1,0 +1,53 @@
+/*
+#Cette partie, qui correspond à la solution du TP, ne concerne pas les échanges.
+set FOOD:= Bread Meat Potatos Cabbage Milk Gelatin;
+
+param:			Calories		Proteins		Calcium		VitaminA		Cost :=
+	Bread		1254			39				418			0				0.3			
+	Meat		1457			73				41			0				1
+	Potatos		318				8				42			70				0.05
+	Cabbage		46				4				141			860				0.08
+	Milk		309				16				536			720				0.23
+	Gelatin		1725			43				0			0				0.48;
+
+param dailyCalories := 3000;
+param dailyProteins := 70;
+param dailyCalcium 	:= 800;
+param dailyVitaminA := 500;
+*/
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+La formule suppose que pour chaque type d'aliment, les valeurs suivantes sont fournies :
+
+    Le nombre de calories,
+    Le risque pour la santé (en pourcentage),
+    Le niveau de satisfaction (évaluation sur x/10),
+    Le coût (en DA) par portion.
+
+Mon objectif est de planifier ma consommation quotidienne de petit-déjeuner de manière à ce que :
+
+    Je consomme au moins 2000 calories.
+    Le risque total pour la santé ne dépasse pas 50 %.
+    Le niveau de satisfaction soit d'au moins 10.
+
+Mon but est de déterminer quels types d'aliments doivent être consommés quotidiennement pour le petit-déjeuner afin de répondre à ces exigences tout en minimisant le coût global.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
+set BREAKFAST := Mhajab    Matlo3_Bl_Farmaj    Banan    Tranche_Pizza    Matlo3_Bl_Farmaj_B_Ton    Karan    Frit_Omelette;
+
+
+param:							Calories		Risk		Satisfied		Cost :=
+	Mhajab						800				40			3				50			
+	Matlo3_Bl_Farmaj			1100			10			7.5				50
+	Banan						500				0			7.5				75
+	Tranche_Pizza				1000			30			8.5				50
+	Matlo3_Bl_Farmaj_B_Ton		1400			17			9				140
+	Karan						1200			45			6				30
+	Frit_Omelette				1000			45			7				120;
+
+param dailyCalories 	:= 2000;
+param maximumRisk 		:= 50;
+param dailySatisfied 	:= 10;
