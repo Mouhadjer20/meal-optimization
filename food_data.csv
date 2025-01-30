@@ -1,8 +1,0 @@
-FoodID,FoodName,Category,Nutrient_Calories,Nutrient_Protein,Nutrient_VitaminA,Cost(q100g),MaxQuantity(q100g)
-1,Apple,1,52,0.3,54,90,10
-2,Banana,1,89,1.1,64,65,10
-3,Chicken Breast,2,165,31,0,700,5
-4,Milk,3,42,3.4,47,70,8
-5,Carrot,1,41,0.9,835,80,10
-6,Rice,2,130,2.4,0,80,7
-7,Chocolate Cake,4,350,3.5,0,170,3

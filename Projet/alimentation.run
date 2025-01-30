@@ -1,7 +1,0 @@
-reset;
-model alimentation.mod;
-data alimentation.dat;
-option solver cplex;
-solve;
-display Select, cost;
-reset;
