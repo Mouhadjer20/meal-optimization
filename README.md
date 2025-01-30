@@ -92,8 +92,8 @@ Subject to:
 
 ## 🛠️ Built With
 - **Python**: For data processing and scripting.
-- **AMPL/PuLP/Gurobi**: To define and solve the optimization problem.
-- **CSV**: For input/output data handling.
+- **Pandas**: For data handling and manipulation.
+- **Numpy**: For numerical computations.
 
 ---
 
